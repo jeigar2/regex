@@ -1,5 +1,5 @@
 <?php
-$file = fopen("../files/results.csv","r");
+$file = fopen("./results.csv","r");
 
 $match   = 0;
 $nomatch = 0;
