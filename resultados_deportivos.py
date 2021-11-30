@@ -1,6 +1,6 @@
 import re
 
-pattern = re.compile(r'^([\d]{4,4})\-\d\d\-\d\d,(.+),(.+),(\d+),(\d+),.*$')
+pattern = re.compile(r'^([\d]{4,4})\-\d\d\-\d\d,(.+),(.+),(\d+),(\d+),Friendly,.*$')
 
 f = open("./results.csv", "r", encoding="utf8")
 
